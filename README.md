@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+A [Jekyll](https://jekyllrb.com/) blog template made for simple, readable snippets of your brain drippings.
 
-You can use the [editor on GitHub](https://github.com/xtabentun/xtabentun.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[DEMO](http://adueck.github.io/cayman-blog/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To get this going follow these simple steps:
 
-### Markdown
+1. Fork, clone, or download the repository
+2. Edit <code>_config.yml</code>
+3. If you want, swap `img/cover.jpg` for your own header image
+3. Fill up the `_posts` folder with whatever you want to say
+4. run <code>jekyll build</code> and then <code>jekyll serve</code>  
+note: This will require the `jekyll-paginate` gem `$ gem install jekyll-paginate`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can easily host your blog for free on [GitHub Pages](https://pages.github.com/)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xtabentun/xtabentun.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I made this Jekyll theme by adapting and modifying the [Cayman Theme](https://github.com/jasonlong/cayman-theme) by [Jason Lang](https://github.com/jasonlong), which is licensed under a [Creative Commons Attribution 4.0 International license](http://creativecommons.org/licenses/by/4.0/).
