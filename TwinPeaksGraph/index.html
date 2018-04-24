@@ -54,8 +54,8 @@
   //var tcBlack = "#130C0E";
 
 // rest of vars
-var w = 1960,
-    h = 1600,
+var w = 1200,
+    h = 1000,
     maxNodeSize = 80,
     x_browser = 20,
     y_browser = 25,
@@ -64,14 +64,14 @@ var w = 1960,
 var vis;
 var force = d3.layout.force(); 
 
-vis = d3.select("#vis").append("svg").attr("width", w).attr("height", h);
+vis = d3.select("#vis").append("svg").attr("width", '100%').attr("height", '100%');
  
 d3.json("twinpeaks.json", function(json) {
  
   root = json;
   root.fixed = true;
-  root.x = w / 2;
-  root.y = h / 4;
+  root.x = '50%';
+  root.y = '25%';
  
  
         // Build the path
@@ -101,7 +101,7 @@ function update() {
     .linkDistance(100)
     .friction(0.5)
     .linkStrength(function(l, i) {return 1; })
-    .size([w, h])
+    .size(['100%', '100%'])
     .on("tick", tick)
         .start();
  
@@ -216,6 +216,8 @@ function tick() {
  * Gives the coordinates of the border for keeping the nodes inside a frame
  * http://bl.ocks.org/mbostock/1129492
  */ 
+
+
 function nodeTransform(d) {
   d.x =  Math.max(maxNodeSize, Math.min(w - (d.imgwidth/2 || 16), d.x));
     d.y =  Math.max(maxNodeSize, Math.min(h - (d.imgheight/2 || 16), d.y));

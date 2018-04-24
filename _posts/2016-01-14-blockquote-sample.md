@@ -3,7 +3,9 @@ layout: post
 title: With nice formatting too..
 ---
 
-<iframe src="https://xtabentun.github.io/TwinPeaksGraph/index.html" width="600" height="400" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe src="https://xtabentun.github.io/TwinPeaksGraph/" width="600" height="400" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+
+The graph can be seen here: https://xtabentun.github.io/TwinPeaksGraph/
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
