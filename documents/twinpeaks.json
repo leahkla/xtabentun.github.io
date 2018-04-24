@@ -1,6 +1,6 @@
 {
  "family": "The town of Twin Peaks itself",
- "img": "/img/twinpeaksfont2.png",
+ "img": "./img/twinpeaksfont2.png",
  "text": "Twin Peaks is an American television serial drama created by Mark Frost and David Lynch. The series initially follows the investigation – headed by FBI Special Agent Dale Cooper (Kyle MacLachlan) – of the brutal murder of a popular teenager and homecoming queen, Laura Palmer (Sheryl Lee).",
  "link": "https://en.wikipedia.org/wiki/Twin_Peaks",
  "children": [
@@ -12,7 +12,7 @@
       "name": "Sheryl Lee", 
       "text": "Hey, what's up, doc? Its Laura, in case you haven't guessed.",
       "link": "http://twinpeaks.wikia.com/wiki/Laura_Palmer",
-      "img":  "/img/LauraPalmer.png",
+      "img":  "./img/LauraPalmer.png",
       "size": 40000
     },
     {
@@ -20,7 +20,7 @@
       "name": "Ray Wise", 
       "text": "We have to dance – for Laura!",
       "link": "http://twinpeaks.wikia.com/wiki/Leland_Palmer",
-      "img":  "/img/LelandPalmer.png",
+      "img":  "./img/LelandPalmer.png",
       "size": 40000
     },
     {
@@ -28,7 +28,7 @@
       "name": "Grace Zabriskie",
       "text": "Laura honey, are you downstairs?",
       "link": "http://twinpeaks.wikia.com/wiki/Sarah_Palmer",
-      "img":  "/img/SarahPalmer.png",
+      "img":  "./img/SarahPalmer.png",
       "size": 40000
     },
     {
@@ -36,7 +36,7 @@
       "name": "Sheryl Lee",
       "text": "You looked at me and you saw Laura. Wanna know something kind of strange? I liked it.",
       "link": "http://twinpeaks.wikia.com/wiki/Maddy_Ferguson",
-      "img":  "/img/MadeleineFerguson.png",
+      "img":  "./img/MadeleineFerguson.png",
       "size": 40000
     }
   ]
@@ -49,7 +49,7 @@
       "name": "Richard Beymer",
       "text": "How many times have I asked you not to disturb the guests with this racket?",
       "link": "http://twinpeaks.wikia.com/wiki/Benjamin_Horne",
-      "img":  "/img/BenHorne.png",
+      "img":  "./img/BenHorne.png",
       "size": 40000
     },
     {
@@ -57,7 +57,7 @@
       "name": "David Patrick Kelly",
       "text": "Next step: rocket science!",
       "link": "http://twinpeaks.wikia.com/wiki/Jerry_Horne",
-      "img":  "/img/JerryHorne.png",
+      "img":  "./img/JerryHorne.png",
       "size": 40000
     },
     {
@@ -65,7 +65,7 @@
       "name": "Sherilyn Fenn",
       "text": "Well maybe I could go with you.",
       "link": "http://twinpeaks.wikia.com/wiki/Audrey_Horne",
-      "img":  "/img/AudreyHorne.png",
+      "img":  "./img/AudreyHorne.png",
       "size": 40000
     },
     {
@@ -73,7 +73,7 @@
       "name": "Jan D'Arcy",
       "text": "You can tell Johnny once again that Laura won’t come this afternoon to work with him.",
       "link": "http://twinpeaks.wikia.com/wiki/Sylvia_Horne",
-      "img":  "/img/SylviaHorne.png",
+      "img":  "./img/SylviaHorne.png",
       "size": 40000
     },
     {
@@ -81,7 +81,7 @@
       "name": "Thor Odinson",
       "link": "http://twinpeaks.wikia.com/wiki/Johnny_Horne",
       "text": "Amen... Amen!",
-      "img":  "/img/JohnnyHorne.png",
+      "img":  "./img/JohnnyHorne.png",
       "size": 40000
     },
     {
@@ -89,7 +89,7 @@
       "name": "John Boylan",
       "link": "http://twinpeaks.wikia.com/wiki/Dwayne_Milford",
       "text": "Is this thing on?",
-      "img":  "/img/DwayneMilford.png",
+      "img":  "./img/DwayneMilford.png",
       "size": 40000
     },
     {
@@ -97,7 +97,7 @@
       "name": "Tony Jay",
       "link": "http://twinpeaks.wikia.com/wiki/Dougie_Milford",
       "text": "I do.",
-      "img":  "/img/DougieMilford.png",
+      "img":  "./img/DougieMilford.png",
       "size": 40000
     },
     {
@@ -105,7 +105,7 @@
       "name": "Robyn Lively",
       "link": "http://twinpeaks.wikia.com/wiki/Lana_Budding_Milford",
       "text": "I want to win the Miss Twin Peaks contest.",
-      "img":  "/img/lana.png",
+      "img":  "./img/lana.png",
       "size": 40000
     },
     {
@@ -113,7 +113,7 @@
       "name": "Billy Zane",
       "link": "http://twinpeaks.wikia.com/wiki/John_Justice_Wheeler",
       "text": " I guess a simple goodbye was out of the question.",
-      "img":  "/img/John.png",
+      "img":  "./img/John.png",
       "size": 40000
     },
     {
@@ -121,7 +121,7 @@
       "name": "Ian Buchanan",
       "link": "http://twinpeaks.wikia.com/wiki/Dick_Tremayne",
       "text": "Capital, Mr. Horne. I'll alert my attorney.",
-      "img":  "/img/DickTremayne.png",
+      "img":  "./img/DickTremayne.png",
       "size": 40000
     }
   ]
@@ -134,7 +134,7 @@
       "name": "Piper Laurie",
       "text": "I just thought you ought to know what your sentimental good-will shenanigans cost us yesterday. You do know what shenanigans are, don’t you?",
       "link": "http://twinpeaks.wikia.com/wiki/Catherine_Martell",
-      "img":  "/img/CatherineMartell.png",
+      "img":  "./img/CatherineMartell.png",
       "size": 40000
     },
     {
@@ -142,7 +142,7 @@
       "name": "Jack Nance",
       "text": "Fellas, don't drink that coffee! You're not gonna believe this, there was a fish in the percolator!",
       "link": "http://twinpeaks.wikia.com/wiki/Pete_Martell",
-      "img":  "/img/PeteMartell.png",
+      "img":  "./img/PeteMartell.png",
       "size": 40000
     },
     {
@@ -150,7 +150,7 @@
       "name": "Joan Chen",
       "text": "I won't leave this office without my money!",
       "link": "http://twinpeaks.wikia.com/wiki/Josie_Packard",
-      "img":  "/img/JosiePackard.png",
+      "img":  "./img/JosiePackard.png",
       "size": 40000
     },
     {
@@ -158,7 +158,7 @@
       "name": "David Warner",
       "text": "I don't believe in ghosts.",
       "link": "http://twinpeaks.wikia.com/wiki/Thomas_Eckhardt",
-      "img":  "/img/ThomasEckhardt.png",
+      "img":  "./img/ThomasEckhardt.png",
       "size": 40000
     },
     {
@@ -166,7 +166,7 @@
       "name": "Mak Takano",
       "text": "I don't believe in ghosts.",
       "link": "http://twinpeaks.wikia.com/wiki/Jonathan_Kumagai",
-      "img":  "/img/JonathanKumagai.png",
+      "img":  "./img/JonathanKumagai.png",
       "size": 40000
     },
     {
@@ -174,7 +174,7 @@
       "name": "Dan O'Herlihy",
       "text": "Pity. It's an appealing notion. The return of the grisly phantom from the grave. You deserve haunting, to be sure. Look closer, Thomas. I'm alive!",
       "link": "http://twinpeaks.wikia.com/wiki/Andrew_Packard",
-      "img":  "/img/AndrewPackard.png",
+      "img":  "./img/AndrewPackard.png",
       "size": 40000
     }
   ]
@@ -187,7 +187,7 @@
        "name": "James Marshall", 
        "text": "It's not really a place its a feeling. Sometimes riding at night, I punch off the headlights and roll the throttle in just rocket blind into the dark.",
        "link": "http://twinpeaks.wikia.com/wiki/James_Hurley",
-       "img":  "/img/JamesHurley.png",
+       "img":  "./img/JamesHurley.png",
        "size": 40000
      },
      {
@@ -195,7 +195,7 @@
        "name": "Everett McGill", 
        "text": "It’s not the first time, it won’t be the last, but I’m in that doghouse again.",
        "link": "http://twinpeaks.wikia.com/wiki/Ed_Hurley",
-       "img":  "/img/EdHurley.png",
+       "img":  "./img/EdHurley.png",
        "size": 40000
      },
      {
@@ -203,7 +203,7 @@
        "name": "Wendy Robie",
        "text": "Ed, are you waiting for those drapes to hang themselves?",
        "link": "http://twinpeaks.wikia.com/wiki/Nadine_Hurley",
-       "img":  "/img/NadineHurley.png",
+       "img":  "./img/NadineHurley.png",
        "size": 40000
      },
      {
@@ -211,7 +211,7 @@
        "name": "Gary Hershberger",
        "text": "Donna, you get to the sheriff's right now.",
        "link": "http://twinpeaks.wikia.com/wiki/Mike_Nelson",
-       "img":  "/img/MikeNelson.png",
+       "img":  "./img/MikeNelson.png",
        "size": 40000
      }
    ]
@@ -224,7 +224,7 @@
        "name": "Don S. Davis", 
        "text": "I’m not at liberty to divulge that information.",
        "link": "http://twinpeaks.wikia.com/wiki/Garland_Briggs",
-       "img":  "/img/GarlandBriggs.png",
+       "img":  "./img/GarlandBriggs.png",
        "size": 40000
      },
      {
@@ -232,7 +232,7 @@
        "name": "Dana Ashbrook", 
        "text": "Norma, I'll see you in my dreams.",
        "link": "http://twinpeaks.wikia.com/wiki/Bobby_Briggs",
-       "img":  "/img/BobbyBriggs.png",
+       "img":  "./img/BobbyBriggs.png",
        "size": 40000
      },
      {
@@ -240,7 +240,7 @@
        "name": "Charlotte Stewart",
        "text": "We’re here for you, Bobby.",
        "link": "http://twinpeaks.wikia.com/wiki/Betty_Briggs",
-       "img":  "/img/BettyBriggs.png",
+       "img":  "./img/BettyBriggs.png",
        "size": 40000
      }
    ]
@@ -253,7 +253,7 @@
        "name": "Peggy Lipton", 
        "text": "Maybe, that’s our problem, Ed. We never want to hurt anyone. We never just take what we want.",
        "link": "http://twinpeaks.wikia.com/wiki/Norma_Jennings",
-       "img":  "/img/NormaJennings.png",
+       "img":  "./img/NormaJennings.png",
        "size": 40000
      },
      {
@@ -261,13 +261,13 @@
        "name": "Catherine E. Coulson", 
        "text": "One day my log will have something to say about this. My log saw something that night.",
        "link": "http://twinpeaks.wikia.com/wiki/Log_Lady",
-       "img":  "/img/LogLady.png",
+       "img":  "./img/LogLady.png",
        "size": 40000
      },
      {
        "hero": "Log", 
        "name": "log",
-       "img":  "/img/log.png",
+       "img":  "./img/log.png",
        "size": 40000
      },
      {
@@ -275,7 +275,7 @@
        "name": "Chris Mulkey",
        "text": "I told you to mind the store, Leo, not open your own franchise!",
        "link": "http://twinpeaks.wikia.com/wiki/Hank_Jennings",
-       "img":  "/img/HankJennings.png",
+       "img":  "./img/HankJennings.png",
        "size": 40000
      },
      {
@@ -283,7 +283,7 @@
        "name": "Heather Graham",
        "text": "Listen to me, I've been out of circulation for so long I've completely forgotten social niceties. You asked me how I am, I'm not really supposed to say how I am, I'm supposed to say \"I'm fime thanks, how are you\"",
        "link": "http://twinpeaks.wikia.com/wiki/Annie_Blackburn",
-       "img":  "/img/AnnieBlackBurn.png",
+       "img":  "./img/AnnieBlackBurn.png",
        "size": 40000
      },
      {
@@ -291,7 +291,7 @@
        "name": "Jane Greer",
        "text": "From whatever fowl did you get these eggs?",
        "link": "http://twinpeaks.wikia.com/wiki/Vivian_Smythe",
-       "img":  "/img/VivianSmythe.png",
+       "img":  "./img/VivianSmythe.png",
        "size": 40000
      },
      {
@@ -299,7 +299,7 @@
        "name": "James Booth",
        "text": "...",
        "link": "http://twinpeaks.wikia.com/wiki/Ernie_Niles",
-       "img":  "/img/Ernie.png",
+       "img":  "./img/Ernie.png",
        "size": 40000
      }
    ]
@@ -312,7 +312,7 @@
        "name": "Michael Ontkean", 
        "text": "Good. Because normaly if a stranger walked into my police station talking that kind of insulting crap, he'd be looking for his front teeth two blocks away on Queer Street!",
        "link": "http://twinpeaks.wikia.com/wiki/Harry_S._Truman",
-       "img":  "/img/HarrySTruman.png",
+       "img":  "./img/HarrySTruman.png",
        "size": 40000
      },
      {
@@ -320,7 +320,7 @@
        "name": "Ray Wise", 
        "text": "Sheriff, I’m going to transfer it to the phone on the table by the red chair. The red chair against the wall. The little table with lamp on it. The lamp we moved from the corner? The black phone, not the brown phone.",
        "link": "http://twinpeaks.wikia.com/wiki/Lucy_Brennan",
-       "img":  "/img/LucyMoran.png",
+       "img":  "./img/LucyMoran.png",
        "size": 40000
      },
      {
@@ -328,7 +328,7 @@
        "name": "Kyle MacLachlan",
        "text": "You know, this is – excuse me – a damn fine cup of coffee.",
        "link": "http://twinpeaks.wikia.com/wiki/Dale_Cooper",
-       "img":  "/img/DaleCooper.png",
+       "img":  "./img/DaleCooper.png",
        "size": 40000
      },
      {
@@ -336,7 +336,7 @@
        "name": "Harry Goaz",
        "text": "Tell Harry… I didn’t cry. But Lucy, it’s so horrible.",
        "link": "http://twinpeaks.wikia.com/wiki/Andy_Brennan",
-       "img":  "/img/AndyBrennan.png",
+       "img":  "./img/AndyBrennan.png",
        "size": 40000
      },
      {
@@ -344,7 +344,7 @@
        "name": "Michael Horse",
        "text": "One woman can make you fly like an eagle, another can give you the strength of a lion, but only one in the cycle of life can fill your heart with wonder and the wisdom that you have known a singular joy. I wrote that for my girlfriend.",
        "link": "http://twinpeaks.wikia.com/wiki/Hawk",
-       "img":  "/img/Hawk.png",
+       "img":  "./img/Hawk.png",
        "size": 40000
      },
      {
@@ -352,7 +352,7 @@
        "name": "Laura Dern",
        "text": "...",
        "link": "http://twinpeaks.wikia.com/wiki/Diane_Evans",
-       "img":  "/img/DianeEvans.png",
+       "img":  "./img/DianeEvans.png",
        "size": 40000
      },
      {
@@ -360,7 +360,7 @@
        "name": "Miguel Ferrer",
        "text": "Oh yeah, well I've had about enough of morons and half wits, dolts, dunces, dullards and dumbbells ... and you, you chowder-head yokel, you blithering hayseed — you've had enough of me?",
        "link": "http://twinpeaks.wikia.com/wiki/Albert_Rosenfield",
-       "img":  "/img/Albert.png",
+       "img":  "./img/Albert.png",
        "size": 40000
      },
      {
@@ -368,7 +368,7 @@
        "name": "David Lynch",
        "text": "Take another look sonny, it's gonna happen again!",
        "link": "http://twinpeaks.wikia.com/wiki/Gordon_Cole",
-       "img":  "/img/GordonCole.png",
+       "img":  "./img/GordonCole.png",
        "size": 40000
      },
      {
@@ -376,7 +376,7 @@
        "name": "David Duchovny",
        "text": "Coop, I may be wearing a dress, but I still pull my panties on one leg at a time if you know what I mean.",
        "link": "http://twinpeaks.wikia.com/wiki/Denise_Bryson",
-       "img":  "/img/DeniseBryson.png",
+       "img":  "./img/DeniseBryson.png",
        "size": 40000
      },
      {
@@ -384,7 +384,7 @@
        "name": "Tony Burton",
        "text": "Garland Briggs is the best pilot I've ever known. He was born with hardware most of us only dream of having. He's been walking point on this operation for three years, carrying a full pack. I'll tell you this: his disappearance has implications that go so far beyond national security the cold war seems like a case of the sniffles.",
        "link": "http://twinpeaks.wikia.com/wiki/Calvin_Reilly",
-       "img":  "/img/CalvinReilly.png",
+       "img":  "./img/CalvinReilly.png",
        "size": 40000
      }
    ]
@@ -397,7 +397,7 @@
        "name": "Frances Bay", 
        "text": "I requested no creamed corn! Do you see creamed corn on that plate?",
        "link": "http://twinpeaks.wikia.com/wiki/Mrs._Tremond",
-       "img":  "/img/MrsTremond.png",
+       "img":  "./img/MrsTremond.png",
        "size": 40000
      },
      {
@@ -405,7 +405,7 @@
        "name": "Austin Jack Lynch ", 
        "text": "J'ai une ame solitaire",
        "link": "http://twinpeaks.wikia.com/wiki/Pierre_Tremond",
-       "img":  "/img/PierreTremond.png",
+       "img":  "./img/PierreTremond.png",
        "size": 40000
      },
      {
@@ -413,7 +413,7 @@
        "name": "Lenny von Dohlen",
        "text": "There are things you can't get anywhere... but we dream they can be found in other people.",
        "link": "http://twinpeaks.wikia.com/wiki/Harold_Smith",
-       "img":  "/img/HaroldSmith.png",
+       "img":  "./img/HaroldSmith.png",
        "size": 40000
      }
    ]
@@ -426,7 +426,7 @@
        "name": "Phoebe Augustine", 
        "text": "Train! Train!",
        "link": "http://twinpeaks.wikia.com/wiki/Ronette_Pulaski",
-       "img":  "/img/RonettePulaski.png",
+       "img":  "./img/RonettePulaski.png",
        "size": 40000
      },
      {
@@ -434,7 +434,7 @@
        "name": "Victoria Catlin", 
        "text": "When you work for me, everybody's your type.",
        "link": "http://twinpeaks.wikia.com/wiki/Blackie_O%27Reilly",
-       "img":  "/img/Blackie.png",
+       "img":  "./img/Blackie.png",
        "size": 40000
      },
      {
@@ -442,7 +442,7 @@
        "name": "Jacques Ferrière",
        "text": "Bite the bullet, baby! Bite the bullet!",
        "link": "http://twinpeaks.wikia.com/wiki/Jacques_Renault",
-       "img":  "/img/JacquesRenault.png",
+       "img":  "./img/JacquesRenault.png",
        "size": 40000
      },
      {
@@ -450,7 +450,7 @@
        "name": "Clay Wilcox",
        "text": "Jacques don't pay me anything. I'm no mule!",
        "link": "http://twinpeaks.wikia.com/wiki/Bernard_Renault",
-       "img":  "/img/BernardRenault.png",
+       "img":  "./img/BernardRenault.png",
        "size": 40000
      },
      {
@@ -458,7 +458,7 @@
        "name": "Michael Parks",
        "text": "Before you came here, Twin Peaks was a simple place. My brothers sold drugs to truck-drivers and teenagers. One-Eyed Jack's welcomed curious tourists and businessmen. Quiet people lived quiet lives. Then a pretty girl dies. And you arrive. Everything changes. My brother Bernard is shot and left to die in the woods. A grieving father smothers my surviving brother with a pillow. Arson, kidnapping. More death and destruction. Suddenly the quiet people here are no longer quiet. Their simple dreams have become a nightmare. Maybe you brought the nightmare with you. And maybe, it will die with you.",
        "link": "http://twinpeaks.wikia.com/wiki/Jean_Renault",
-       "img":  "/img/JeanRenault.png",
+       "img":  "./img/JeanRenault.png",
        "size": 40000
      },
      {
@@ -466,7 +466,7 @@
        "name": "unidentified Myna Bird",
        "text": "Lora, Lora..., don't go there, Leo no!",
        "link": "http://twinpeaks.wikia.com/wiki/Waldo",
-       "img":  "/img/WaldoTheBird.png",
+       "img":  "./img/WaldoTheBird.png",
        "size": 40000
      }
    ]
@@ -479,7 +479,7 @@
        "name": "Frank Silva", 
        "text": "Mike. Mike! Can you hear me? Catch you... with my death bag! You may think I've gone insane... but I promise. I will kill again.",
        "link": "http://twinpeaks.wikia.com/wiki/BOB",
-       "img":  "/img/bob.png",
+       "img":  "./img/bob.png",
        "size": 40000
      },
      {
@@ -487,7 +487,7 @@
        "name": "Al Strobel", 
        "text": "He is BOB, eager for fun. He wears a smile, everybody run.",
        "link": "http://twinpeaks.wikia.com/wiki/MIKE",
-       "img":  "/img/TheOneArmedManMike.png",
+       "img":  "./img/TheOneArmedManMike.png",
        "size": 40000
      },
      {
@@ -495,7 +495,7 @@
        "name": "Michael J. Anderson",
        "text": "Let's rock!",
        "link": "http://twinpeaks.wikia.com/wiki/The_arm",
-       "img":  "/img/ManFromAnotherPlace.png",
+       "img":  "./img/ManFromAnotherPlace.png",
        "size": 40000
      },
      {
@@ -503,7 +503,7 @@
        "name": "Kenneth Welsh",
        "text": "Your silence speaks volumes, or if not volumes, at least the occasional unpunctuated paragraph.",
        "link": "http://twinpeaks.wikia.com/wiki/Windom_Earle",
-       "img":  "/img/WindomEarle.png",
+       "img":  "./img/WindomEarle.png",
        "size": 40000
      }
    ]
@@ -516,7 +516,7 @@
        "name": "Carel Struycken", 
        "text": "Think of me as a friend.",
        "link": "http://twinpeaks.wikia.com/wiki/Giant",
-       "img":  "/img/Giant.png",
+       "img":  "./img/Giant.png",
        "size": 40000
      },
      {
@@ -524,7 +524,7 @@
        "name": "Hank Worden", 
        "text": "Warm milk.",
        "link": "http://twinpeaks.wikia.com/wiki/Waiter",
-       "img":  "/img/Waiter.png",
+       "img":  "./img/Waiter.png",
        "size": 40000
      }
    ]
@@ -537,7 +537,7 @@
        "name": "Russ Tamblyn", 
        "text": "The problems of our entire society are of a sexual nature.",
        "link": "http://twinpeaks.wikia.com/wiki/Dr._Lawrence_Jacoby",
-       "img":  "/img/Jackoby.png",
+       "img":  "./img/Jackoby.png",
        "size": 40000
      }
    ]
@@ -550,7 +550,7 @@
        "name": "Eric Da Re", 
        "text": "So? I paid my debt to society.",
        "link": "http://twinpeaks.wikia.com/wiki/Leo_Johnson",
-       "img":  "/img/LeoJohnson.png",
+       "img":  "./img/LeoJohnson.png",
        "size": 40000
      },
      {
@@ -558,7 +558,7 @@
        "name": "Mädchen Amick", 
        "text": "I’m a waitress in a diner. I’ve never been compared to a goddess before.",
        "link": "http://twinpeaks.wikia.com/wiki/Shelly_Johnson",
-       "img":  "/img/ShellyJohnson.png",
+       "img":  "./img/ShellyJohnson.png",
        "size": 40000
      }
    ]
@@ -571,7 +571,7 @@
        "name": "Annette McCarthy", 
        "text": ":I can almost hear what's inside from here... Live nearby?",
        "link": "http://twinpeaks.wikia.com/wiki/Evelyn_Marsh",
-       "img":  "/img/EvelynMarsh.png",
+       "img":  "./img/EvelynMarsh.png",
        "size": 40000
      },
      {
@@ -579,7 +579,7 @@
        "name": "Nicholas Love", 
        "text": "Once a fortnight",
        "link": "http://twinpeaks.wikia.com/wiki/Malcolm_Sloan",
-       "img":  "/img/MalcomSloan.png",
+       "img":  "./img/MalcomSloan.png",
        "size": 40000
      }
    ]
