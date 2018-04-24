@@ -3,7 +3,7 @@ layout: post
 title: With nice formatting too...
 ---
 
-{% include index.html %} 
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
