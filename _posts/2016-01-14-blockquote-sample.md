@@ -3,9 +3,9 @@ layout: post
 title: With nice formatting too..
 ---
 
-<img src="./TwinPeaksGraph/img/twinpeaksimage.jpg"/>
+<img src="../TwinPeaksGraph/img/twinpeaksimage.jpg"/>
 
-<a href=https://xtabentun.github.io/TwinPeaksGraph/>The graph can be seen here</a>
+<a href="https://xtabentun.github.io/TwinPeaksGraph/">The graph can be seen here</a>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
