@@ -1,9 +1,9 @@
 ---
 layout: post
-title: With nice formatting too...
+title: With nice formatting too..
 ---
 
-
+<iframe src="https://xtabentun.github.io/TwinPeaksGraph/index.html" width="600" height="400" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
