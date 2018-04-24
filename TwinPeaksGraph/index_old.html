@@ -54,8 +54,8 @@
   //var tcBlack = "#130C0E";
 
 // rest of vars
-var w = 1960 ,
-    h = 1600 ,
+var w = window.innerWidth,
+    h = window.innerHeight,
     maxNodeSize = 80,
     x_browser = 20,
     y_browser = 25,
@@ -64,14 +64,20 @@ var w = 1960 ,
 var vis;
 var force = d3.layout.force(); 
 
-vis = d3.select("#vis").append("svg").attr("width", w).attr("height", h);
+vis = d3.select("#vis").append("svg")
+.attr("width", '100%')
+.attr("height", '100%')
+.attr('viewBox','0 0 '+Math.min(w,h)+' '+Math.min(w,h))
+.attr('preserveAspectRatio','xMinYMin')
+.append("g");
+//.attr("transform", "translate(" + Math.min(w,h) / 16 + "," + Math.min(w,h) / 16 + ")");
  
 d3.json("twinpeaks.json", function(json) {
  
   root = json;
   root.fixed = true;
   root.x = w / 2;
-  root.y = h / 4;
+  root.y = h / 2;
  
  
         // Build the path
@@ -101,7 +107,7 @@ function update() {
     .linkDistance(100)
     .friction(0.5)
     .linkStrength(function(l, i) {return 1; })
-    .size([w, h])
+    .size([w/2, h/2])
     .on("tick", tick)
         .start();
  
@@ -216,9 +222,11 @@ function tick() {
  * Gives the coordinates of the border for keeping the nodes inside a frame
  * http://bl.ocks.org/mbostock/1129492
  */ 
+
+
 function nodeTransform(d) {
-  d.x =  Math.max(maxNodeSize, Math.min(w - (d.imgwidth/2 || 16), d.x));
-    d.y =  Math.max(maxNodeSize, Math.min(h - (d.imgheight/2 || 16), d.y));
+  d.x =  Math.max(maxNodeSize, Math.min(w  - (d.imgwidth/2 || 16), d.x));
+    d.y =  Math.max(maxNodeSize, Math.min(h  - (d.imgheight/2 || 16), d.y));
     return "translate(" + d.x + "," + d.y + ")";
    }
  
