@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Visualizing Twitter data with Bokeh
+published: false
 ---
 
 First, I made a script which merged the separate csv files (from the FiveThirtyEight dataset) into a single csv file. For these simple visualizations, I left out some of the columns from the original data: all columns with only urls were left out, a binary indicator `new_june_2018` and `harvested_date` (a column that included information on the date and time the tweet was collected by Social Studio) were also left out. Id columns `alt_external_id` and `tweet_id` were left out. `publish_date` column was converted into datetime format.
