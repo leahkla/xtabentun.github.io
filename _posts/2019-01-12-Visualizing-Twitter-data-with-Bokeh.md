@@ -8,7 +8,7 @@ First, I made a script which merged the separate csv files (from the FiveThirtyE
 Now the `tweets` dataframe has 13 columns and 5 892 414 rows in total. If we explore only English tweets, there would be 4 233 734 tweets in the dataframe.
 
 
-<iframe name="Histogram of update activity for unique Twitter handles who tweeted in English" width="1000" height="550" frameborder="0" scrolling="no" src="../graphs/histogram_twitter_IRA.html"></iframe>
+<iframe name="Histogram of update activity for unique Twitter handles who tweeted in English" width="1100" height="600" frameborder="0" scrolling="no" src="../graphs/histogram_twitter_IRA.html"></iframe>
 
 *Which bin of maximum number of update actions has the highest representation of unique Twitter handles? Are there more low activity accounts than high activity accounts in the dataset? Can we spot some interesting patterns or anomalies when it comes to update activity?*
 
