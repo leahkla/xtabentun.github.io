@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visualizing Twitter data with Bokeh
-published: false
+published: true
 ---
 
 First, I made a script which merged the separate csv files (from the FiveThirtyEight dataset) into a single csv file. For these simple visualizations, I left out some of the columns from the original data: all columns with only urls were left out, a binary indicator `new_june_2018` and `harvested_date` (a column that included information on the date and time the tweet was collected by Social Studio) were also left out. Id columns `alt_external_id` and `tweet_id` were left out. `publish_date` column was converted into datetime format.
@@ -14,3 +14,9 @@ Now the `tweets` dataframe has 13 columns and 5 892 414 rows in total. If we exp
 *Which bin of maximum number of update actions has the highest representation of unique Twitter handles? Are there more low activity accounts than high activity accounts in the dataset? Can we spot some interesting patterns or anomalies when it comes to update activity?*
 
 Since the histogram has bins of 200 (from 0 to 200, 200 to 400 and so on), we'll notice that there is higher representation of low activity accounts, but also separate accounts with very high amount of update actions: the highest representation of English-tweeting unique handles (303) is around 400-600 update actions, but there are also single handles with large amount of update actions (166113). The mean of updates was 11 293 with standard deviation of 19 141. Handles that tweeted in English had over 2 million updates (2 116 867) in total.
+
+We can now take a look at the NBC News dataset. We can make a dataframe out of `users.csv` file and check for example what kind of tweeting (including retweeting) behaviour unique English-tweeting handles exhibit: are there more users who make 0 to 6000 tweets or retweets or more users with for example over 30 000 tweets or retweets? Let's limit our dataframe to only English tweets and do same as we did above, but for counting (max) `statuses_count` for each user id. Then we can visualize the result as histogram:
+
+<iframe width="1000" height="500" frameborder="0" scrolling="no" src="../graphs/histogram_twitter_NBC.html"></iframe>
+
+We'll notice that with the smaller NBC News dataset there is similar trend going on: most of the handles seem to make less than 6000 tweets or retweets, whereas single accounts seem to tweet or retweet much more.
