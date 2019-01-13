@@ -11,7 +11,7 @@ Now the `tweets` dataframe has 13 columns and 5 892 414 rows in total. If we exp
 
 <iframe width="1000" height="500" frameborder="0" scrolling="no" src="../graphs/histogram_twitter_IRA.html"></iframe>
 
-*Which bin of maximum number of update actions has the highest representation of unique Twitter handles? Are there more low activity accounts than high activity accounts in the dataset? Can we spot some interesting patterns or anomalies when it comes to update activity?*
+*Which bin of total update actions has the highest representation of unique Twitter handles? Are there more low activity accounts than high activity accounts in the dataset? Can we spot some interesting patterns or anomalies when it comes to update activity?*
 
 Since the histogram has bins of 200 (from 0 to 200, 200 to 400 and so on), we'll notice that there is higher representation of low activity accounts, but also separate accounts with very high amount of update actions: the highest representation of English-tweeting unique handles (303) is around 400-600 update actions, but there are also single handles with large amount of update actions (166113). The mean of updates was 11 293 with standard deviation of 19 141. Handles that tweeted in English had over 2 million updates (2 116 867) in total.
 
