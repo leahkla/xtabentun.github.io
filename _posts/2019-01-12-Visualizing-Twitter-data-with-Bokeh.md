@@ -9,7 +9,7 @@ First, I made a script which merged the separate csv files (from the FiveThirtyE
 Now the `tweets` dataframe has 13 columns and 5 892 414 rows in total. If we explore only English tweets, there would be 4 233 734 tweets in the dataframe. By looking the columns of the dataframe, it would be interesting to see for example, what kind of update activity amount has the highest representation of unique handles. For observing the update activity (the number of "update actions" on the account that authored the tweet, including tweets, retweets and likes) of unique Twitter handles, I used `groupby` for `external_author_id` which will be the index and for each external author id I got a single column of list of all updates by applying lambda function to `updates` column, collecting the unique updates. Then I created a list where I collected all the maximum update values that each external author id had and visualized that as a histogram:
 
 
-<iframe width="1000" height="500" frameborder="0" scrolling="no" src="../graphs/histogram_twitter_IRA.html"></iframe>
+<iframe width="1000" height="550" frameborder="0" scrolling="no" src="../graphs/histogram_twitter_IRA.html"></iframe>
 
 *Which bin of total update actions has the highest representation of unique Twitter handles? Are there more low activity accounts than high activity accounts in the dataset? Can we spot some interesting patterns or anomalies when it comes to update activity?*
 
