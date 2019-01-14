@@ -7,7 +7,7 @@ title: Networking the Twin Peaks encounters with python
 
 Here are some of the first experiments in building an interactive network graph, which represents human social relationships in the social networks of TP season one and two. The main tools were python (the python toolkits [Pandas], [Plotly] and [Scipy]) and [Gephi] (I applied Gephi's force layout algorithm [Fruchterman Reingold]).
 
-<iframe width="1000" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~lzkozone/5.embed"></iframe>
+<iframe width="900" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~lzkozone/5.embed"></iframe>
 
 [Pandas]: https://pandas.pydata.org/
 
