@@ -65,7 +65,9 @@ var vis;
 var force = d3.layout.force(); 
 
 vis = d3.select("#vis").append("svg").attr("width", w).attr("height", h);
- 
+ // In the first argument of the built-in import function d3.json(), 
+ // we introduce the json containing the information of twin peaks characters
+ // also, the structure of json defines which characters belong to specific families.
 d3.json("twinpeaks.json", function(json) {
  
   root = json;
